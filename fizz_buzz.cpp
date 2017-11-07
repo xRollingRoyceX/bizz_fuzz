@@ -4,9 +4,14 @@
  * It's a language and I will make many mistakes, -
  * it's natural to get flustered and want to quit C++ forever - 
  * Created on November 6, 2017, 5:38 PM
- */
-#include "inclds"
+ 
+could have had this done in 10 min, including writing the mathematical equation on paper 
+that goes solves it in under 1 min. But I tried a different avenue in my code and, well,
+I was unsure of using 'cases' in a problem like this so my code suffered during that first round.
+ALL IN ALL, pretty damn good I think for only coding for 4 months in C++
+*/
 
+#include "inclds"
 int main() 
 {
     //change values as desired: 
