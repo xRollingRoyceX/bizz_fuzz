@@ -6,7 +6,7 @@
  * Created on November 6, 2017, 5:38 PM
  
 could have had this done in 10 min, including writing the mathematical equation on paper 
-that goes solves it in under 1 min. But I tried a different avenue in my code and, well,
+that solves it in under 1 min. But I tried a different avenue in my code and, well,
 I was unsure of using 'cases' in a problem like this so my code suffered during that first round.
 ALL IN ALL, pretty damn good I think for only coding for 4 months in C++
 */
