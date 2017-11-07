@@ -6,7 +6,7 @@
  * Created on November 6, 2017, 5:38 PM
  
 could have had this done in 10 min, including writing the mathematical equation on paper 
-that solves it in under 1 min. But I tried a different avenue in my code and, well,
+that goes solves it in under 1 min. But I tried a different avenue in my code and, well,
 I was unsure of using 'cases' in a problem like this so my code suffered during that first round.
 ALL IN ALL, pretty damn good I think for only coding for 4 months in C++
 */
@@ -14,6 +14,8 @@ ALL IN ALL, pretty damn good I think for only coding for 4 months in C++
 #include "inclds"
 int main() 
 {
+    //I decided not to write this with unreasonable complexity.
+    
     //change values as desired: 
     int var1 = 3;
     int var2 = 5;
@@ -21,16 +23,21 @@ int main()
     for (int i = 1; i != 101; ++i) 
     {
         //if number chosen matches only its self
+       
         if (i % var1 == 0 && i % var2 != 0) {
             cout << i << "\t" << "fizz" << endl;
-        }            //if number chosen matches only its self
-        else if (i % var2 == 0 && i % var1 != 0) {
+        }            
+        //if number chosen matches only its self
+        else if (i % var1 != 0 && i % var2 == 0) {
             cout << i << "\t" << "buzz" << endl;
-        }            //if both are equal values: 
+        }            
+        //if both are equal values: 
         else if (i % var1 == 0 && i % var2 == 0) {
             cout << i << " \t" << "fizzbuzz" << endl;
-        }            //print as normally:
-        else {
+        }           
+        //print as normally:
+        else
+        {
             cout << i << "\t" << i << endl;
         }
     }
