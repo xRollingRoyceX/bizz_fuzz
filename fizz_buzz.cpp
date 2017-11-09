@@ -14,27 +14,27 @@ ALL IN ALL, pretty damn good I think for only coding for 4 months in C++
 #include "inclds"
 int main() 
 {
-    //I decided not to write this with unreasonable complexity.
+    //I decided not to write this with unreasonable complexity:
     
     //change values as desired: 
-    int var1 = 3;
-    int var2 = 5;
+    Unsigned var1 = 3;
+    Unsigned var2 = 5;
 
     for (int i = 1; i != 101; ++i) 
     {
-        //If number matches only its self
+        //If the number matches only its self
         if (i % var1 == 0 && i % var2 != 0) {
             cout << i << "\t" << "fizz" << endl;
         }            
-        //If number matches only its self
+        //If the number matches only its self
         else if (i % var1 != 0 && i % var2 == 0) {
             cout << i << "\t" << "buzz" << endl;
         }            
-        //If both numbers are of equal values: 
+        //If both numbers are of equal value: 
         else if (i % var1 == 0 && i % var2 == 0) {
             cout << i << " \t" << "fizzbuzz" << endl;
         }           
-        //print as normally:
+        //execute code as normally would:
         else
         {
             cout << i << "\t" << i << endl;
