@@ -22,16 +22,15 @@ int main()
 
     for (int i = 1; i != 101; ++i) 
     {
-        //if number chosen matches only its self
-       
+        //If number matches only its self
         if (i % var1 == 0 && i % var2 != 0) {
             cout << i << "\t" << "fizz" << endl;
         }            
-        //if number chosen matches only its self
+        //If number matches only its self
         else if (i % var1 != 0 && i % var2 == 0) {
             cout << i << "\t" << "buzz" << endl;
         }            
-        //if both are equal values: 
+        //If both numbers are of equal values: 
         else if (i % var1 == 0 && i % var2 == 0) {
             cout << i << " \t" << "fizzbuzz" << endl;
         }           
