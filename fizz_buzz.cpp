@@ -17,8 +17,8 @@ int main()
     //I decided not to write this with unreasonable complexity:
     
     //change values as desired: 
-    Unsigned var1 = 3;
-    Unsigned var2 = 5;
+    unsigned var1 = 3;
+    unsigned var2 = 5;
 
     for (int i = 1; i != 101; ++i) 
     {
