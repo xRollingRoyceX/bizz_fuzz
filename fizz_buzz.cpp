@@ -24,12 +24,12 @@ int main()
      //If the number matches only its self
         if (i % var1 == 0 && i % var2 != 0) 
         {
-            cout << i << "\t" << "fizz" << endl;
+            cout << i << " \t" << "fizz" << endl;
         }           
      //If the number matches only its self
         else if (i % var1 != 0 && i % var2 == 0) 
         {
-            cout << i << "\t" << "buzz" << endl;
+            cout << i << " \t" << "buzz" << endl;
         }           
      //If both numbers are of equal value: 
         else if (i % var1 == 0 && i % var2 == 0) 
@@ -39,7 +39,7 @@ int main()
      //execute code as normally would:
         else
         {
-            cout << i << "\t" << i << endl;
+            cout << i << " \t" << i << endl;
         }
     }
     return 0;
